@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:todo_getx_app/config/config.dart';
+import 'package:full_apps_getx/config/config.dart';
 
 void main() => runApp(const GetMaterialApp(home: MyApp()));
 

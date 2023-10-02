@@ -1,4 +1,4 @@
-# todo_getx_app
+# full_apps_getx
 
 Todo GetX App
 

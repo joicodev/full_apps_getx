@@ -1,5 +1,5 @@
 import 'package:go_router/go_router.dart';
-import 'package:todo_getx_app/presentation/screens/screens.dart';
+import 'package:full_apps_getx/presentation/screens/screens.dart';
 
 final appRouter = GoRouter(routes: [
   GoRoute(
@@ -8,7 +8,7 @@ final appRouter = GoRouter(routes: [
   ),
   GoRoute(
     path: '/counter',
-    builder: (context, state) => const CounterScreen(),
+    builder: (context, state) => CounterScreen(),
   ),
   /*GoRoute(
     path: '/provider-router',
