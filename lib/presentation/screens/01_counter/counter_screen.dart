@@ -5,7 +5,7 @@ import 'package:full_apps_getx/presentation/controllers/01_counter/counter_contr
 class CounterScreen extends StatelessWidget {
   CounterScreen({super.key}) {
     Get.lazyPut(() => ConfigController());
-    Get.lazyPut(() => CounterController(), fenix: true);
+    Get.lazyPut(() => CounterController());
   }
 
   @override
